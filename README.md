@@ -2,7 +2,7 @@
 Zotter is a note-taking app that syncs with Zotero. It is designed to run on a homebrew e-paper typewriter, or a cyberdeck, or any device that you can take into a library and take notes on without getting distracted by a web browser.
 
 <pre>
-      .----.__
+      .zzzz.__
      / c  ^  _`;
      |     .--'
       \   (
@@ -14,10 +14,10 @@ Zotter is a note-taking app that syncs with Zotero. It is designed to run on a h
    |      |   \ \
    |    __|    `'
    ;   /   \
-  ,'        | zotter v1
+  ,'        |  zotter v1
  (_`'---._ /--,
    `'---._`'---..__
-sid made  `''''--, )
+by sid    `''''--, )
             _.-'`,`
              ````
 </pre>
