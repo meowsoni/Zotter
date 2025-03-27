@@ -51,5 +51,11 @@ Waveshare 4.2" e-Paper Display*
 
 *The problem with `curses` is that a text-based UI cannot draw on most of e-paper displays as they use `framebuffer` and raw pixel data. A translation layer would need to be built that could efficiently render a command line application such as Zotter on e-paper displays. Drawing a low-level bytemap is impractical as we need partial refresh support to avoid artifacting on e-Paper displays.
 
-**License** <br>
-It's a little app. Give credit. Contribute here if you can. GNU Public License v3, anyway, included.
+# Hardware and Design
+Below are mock ups for a prototype product. It is a mechanical keyboard in which Zotter is built into a 'lift over and up' style transparent cover. A wireframe hinge is used for threading wires into the keyboard where there is space for the battery. Friction from the rubber gasket makes the device stay up without need for expensive hinges. A USB-C port is exposed at the back of the keyboard and when plugged the keyboard can be used with any device as a standard USB keyboard. Total cost of device can be as less as $75.
+
+<img src="https://github.com/user-attachments/assets/07429431-ae45-4866-aeb2-33fa98fa928e" alt="28EBC4FB" width="400" />
+<img src="https://github.com/user-attachments/assets/5f324db4-f3b3-4c4c-b27b-f3cc5f9abe8a" alt="539A4C38" width="400" />
+
+
+
