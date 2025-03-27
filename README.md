@@ -45,7 +45,7 @@ The only dependency is `python3` as the project's UI is built using `curses` and
 If you are using a custom keyboard, make sure it is running QMK firmware.
 
 **SUGGESTED HARDWARE** <br>
-Raspberry Pi Zero 2W (headless) <br>
+Raspberry Pi Zero 2W <br>
 Waveshare 3.5" IPS Touch Screen for Raspberry Pi GPIO/SPI
 Waveshare 4.2" e-Paper Display*
 
