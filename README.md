@@ -22,8 +22,7 @@ sid made  `''''--, )
              ````
 </pre>
 
-**Zotter is written in Python and designed to run as a standalone app on e-ink typewriters or homemade cyberdecks.** <br>
-It does not currently have a local files repository and uses Zotero Web API's `POST` and `PATCH` function to upload notes directly to Zotero as JSON objects.
+**Zotter is written in Python.** It does not currently have a local files repository and uses Zotero Web API's `POST` and `PATCH` function to upload notes directly to Zotero as JSON objects.
 
 Here is the project structure:
 
@@ -45,12 +44,12 @@ Here is the project structure:
 The only dependency is `python3` as the project's UI is built using `curses` and it uses standard keyboard input `sys.stdin`
 If you are using a custom keyboard, make sure it is running QMK firmware.
 
-**HARDWARE BEING USED** <br>
-Raspberry Pi Zero 2W <br>
+**SUGGESTED HARDWARE** <br>
+Raspberry Pi Zero 2W (headless) <br>
 Waveshare 3.5" IPS Touch Screen for Raspberry Pi GPIO/SPI
+Waveshare 4.2" e-Paper Display*
 
-**DEVELOPMENT NEEDS** <br>
-The problem with `curses` is that a text-based UI cannot draw on most of e-paper displays as they use `framebuffer` and raw pixel data. A translation layer would need to be built that could efficiently render a command line application such as Zotter on e-paper displays. Drawing a low-level bytemap is impractical as we need partial refresh support to avoid artifacting.
+*The problem with `curses` is that a text-based UI cannot draw on most of e-paper displays as they use `framebuffer` and raw pixel data. A translation layer would need to be built that could efficiently render a command line application such as Zotter on e-paper displays. Drawing a low-level bytemap is impractical as we need partial refresh support to avoid artifacting on e-Paper displays.
 
 **License** <br>
 It's a little app. Give credit. Contribute here if you can. GNU Public License v3, anyway, included.
