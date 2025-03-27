@@ -46,7 +46,7 @@ If you are using a custom keyboard, make sure it is running QMK firmware.
 
 **SUGGESTED HARDWARE** <br>
 Raspberry Pi Zero 2W <br>
-Waveshare 3.5" IPS Touch Screen for Raspberry Pi GPIO/SPI
+Waveshare 3.5" IPS Touch Screen for Raspberry Pi GPIO/SPI <br>
 Waveshare 4.2" e-Paper Display*
 
 *The problem with `curses` is that a text-based UI cannot draw on most of e-paper displays as they use `framebuffer` and raw pixel data. A translation layer would need to be built that could efficiently render a command line application such as Zotter on e-paper displays. Drawing a low-level bytemap is impractical as we need partial refresh support to avoid artifacting on e-Paper displays.
