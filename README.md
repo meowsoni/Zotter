@@ -1,29 +1,27 @@
 # Zotter
 Zotter is a note-taking app that syncs with Zotero. It is designed to run on a homebrew e-paper typewriter, or a cyberdeck, or any device that you can take into a library and take notes on without getting distracted by a web browser.
 
+<div align="center">
 <pre>
-            
-                                                   .zzzz.__
-                                                 / c  ^  _`;
-                                                 |     .--'
-                                                    \   (
-                                                    /  -.\
-                                                   / .   \
-                                                 /  \    |
-                                                ;    `-. `.
-                                               |      /`'.`.
-                                              |      |   \ \
-                                              |    __|    `'
-                                                 ;   /   \
-                                          ,'        |  zotter v1
-                                             (_`'---._ /--,
-                                             `'---._`'---..__
-                                          by sid    `''''--, )
-                                                      _.-'`,`
-                                                        ````
-            
-             N  New Note          X  Existing Note          L  Library          ESC  Exit
-</pre>
+      .zzzz.__
+     / c  ^  _`;
+     |     .--'
+      \   (
+      /  -.\
+     / .   \
+    /  \    |
+   ;    `-. `.
+   |      /`'.`.
+   |      |   \ \
+   |    __|    `'
+   ;   /   \
+  ,'        |  zotter v1
+ (_`'---._ /--,
+   `'---._`'---..__
+by sid    `''''--, )
+            _.-'`,`
+             ````
+</pre></div>
 
 **Zotter is written in Python.** It does not currently have a local files repository and uses Zotero Web API's `POST` and `PATCH` function to upload notes directly to Zotero as JSON objects.
 
